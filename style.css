@@ -12,12 +12,10 @@ header {
     top: 0;
     left: 0;
 }
-
 header nav ul {
     text-align: center;
     padding: 10px;
 }
-
 header nav ul li {
     display: inline-block;
     color: white;
@@ -25,10 +23,20 @@ header nav ul li {
     padding: 10px;
     font-size: 20px;
 }
-
 header nav ul li:hover {
     background-color: white;
     color: black;
+}
+
+.Abount-Me,
+.Experience,
+.Education,
+.Skills,
+.Projects,
+.Contact-Me {
+    position: relative;
+    width: 100%;
+    top: 950px;
 }
 
 .cover {
@@ -39,7 +47,6 @@ header nav ul li:hover {
     top: 100px;
     left: 0;
 }
-
 .cover-container {
     height: 800px;
     width: 800px;
@@ -49,7 +56,6 @@ header nav ul li:hover {
     margin-top: 10px;
     padding: 10px;
 }
-
 .cover-container img {
     height: 350px;
     width: 350px;
@@ -57,25 +63,21 @@ header nav ul li:hover {
     display: block;
     margin: 0 auto;
 }
-
 .cover-container h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 80px;
     color: white;
 }
-
 .cover-container h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: white;
 }
-
 .cover-container p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
     color: white;
 }
-
 .cover-container button {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
